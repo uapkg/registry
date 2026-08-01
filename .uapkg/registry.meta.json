@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "registry": {
+    "id": "00000000-0000-4000-a000-000000000020",
+    "name": "uapkg-registry-official",
+    "normalizedName": "uapkg-registry-official",
+    "visibility": "public",
+    "createdAt": 1785611913
+  },
+  "owner": {
+    "kind": "organization",
+    "id": "00000000-0000-4000-a000-000000000010",
+    "name": "uapkg",
+    "normalizedName": "uapkg"
+  },
+  "sourceOfTruth": {
+    "type": "uapkg-service",
+    "apiBaseUrl": "https://api.uapkg.dev/v1"
+  },
+  "generated": {
+    "generatedAt": 1785611913,
+    "generatedBy": "uapkg-registry-app"
+  }
+}
