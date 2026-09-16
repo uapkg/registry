@@ -1,7 +1,19 @@
-# UAPKG Official Registry — Temporary Bootstrap
+# UAPKG Official Registry
 
-This private repository is temporary bootstrap state for the production UAPKG CLI.
+This repository contains the installable Git representation of the official
+UAPKG registry. The UAPKG CLI uses this repository as its default production
+registry.
 
-It intentionally contains no package manifests. When production registry linking is available through the UAPKG website service, this repository will be reset and initialized through that workflow.
+Package metadata is generated from accepted state in the
+[UAPKG publishing platform](https://github.com/uapkg/registry-infra).
+The platform maintains `.uapkg/registry.meta.json` and the package records under
+`packages/`; changes to those managed files should go through UAPKG's publishing
+and registry administration workflows.
 
-The metadata under `.uapkg/registry.meta.json` uses the canonical official registry and organization identities so clients can exercise the final trust contract without introducing disposable service identifiers.
+Registry identity and compatibility information are available in
+[`.uapkg/registry.meta.json`](.uapkg/registry.meta.json).
+Repository history is retained through initialization and subsequent projection.
+
+See the [UAPKG project](https://github.com/uapkg/uapkg) for the CLI and package
+format, and [UAPKG Account](https://account.uapkg.dev) for publishing and registry
+administration.
