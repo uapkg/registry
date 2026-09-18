@@ -18,7 +18,7 @@
     "apiBaseUrl": "https://api.uapkg.dev/v1"
   },
   "generated": {
-    "generatedAt": 1789707,
+    "generatedAt": 1789707538,
     "generatedBy": "uapkg-registry-app"
   }
 }
