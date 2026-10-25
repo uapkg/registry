@@ -3,22 +3,6 @@
   "registry": {
     "id": "00000000-0000-4000-a000-000000000020",
     "name": "uapkg-registry-official",
-    "normalizedName": "uapkg-registry-official",
-    "registryType": "public",
-    "createdAt": 1789609324
-  },
-  "owner": {
-    "kind": "organization",
-    "id": "00000000-0000-4000-a000-000000000010",
-    "name": "uapkg",
-    "normalizedName": "uapkg"
-  },
-  "sourceOfTruth": {
-    "type": "uapkg-service",
-    "apiBaseUrl": "https://api.uapkg.dev/v1"
-  },
-  "generated": {
-    "generatedAt": 1789716429,
-    "generatedBy": "uapkg-registry-app"
+    "registryType": "public"
   }
 }
